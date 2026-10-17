@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F6FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🔑 RentEase"
+            android:textColor="#17243B"
+            android:textSize="28sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Find Your Perfect Rental"
+            android:textColor="#17243B"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Cars, mobiles, cameras and laptops."
+            android:textColor="#64748B"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:id="@+id/searchBox"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="20dp"
+            android:background="#FFFFFF"
+            android:hint="Search rental items..."
+            android:padding="12dp"
+            android:singleLine="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Browse Categories"
+            android:textColor="#17243B"
+            android:textSize="21sp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/btnBrowse"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="14dp"
+            android:backgroundTint="#2563EB"
+            android:text="Explore All Rentals"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/btnCars"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#FFFFFF"
+            android:text="🚗  Cars"
+            android:textColor="#17243B"
+            android:textSize="18sp"/>
+
+        <Button
+            android:id="@+id/btnMobiles"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#FFFFFF"
+            android:text="📱  Mobile Phones"
+            android:textColor="#17243B"
+            android:textSize="18sp"/>
+
+        <Button
+            android:id="@+id/btnCameras"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#FFFFFF"
+            android:text="📷  Cameras"
+            android:textColor="#17243B"
+            android:textSize="18sp"/>
+
+        <Button
+            android:id="@+id/btnLaptops"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#FFFFFF"
+            android:text="💻  Laptops"
+            android:textColor="#17243B"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:text="Affordable rentals, all in one place."
+            android:textColor="#64748B"
+            android:textSize="13sp"/>
+
+    </LinearLayout>
+</ScrollView>
